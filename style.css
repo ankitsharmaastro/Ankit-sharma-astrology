@@ -2,24 +2,23 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family:Arial,sans-serif;
 }
 
 body{
-    font-family:Arial, sans-serif;
-    background:#f5f5f5;
+    background:#f4f4f4;
     color:#333;
-    line-height:1.6;
 }
 
 header{
-    background:#8B0000;
+    background:#111827;
     color:#fff;
     padding:20px;
     text-align:center;
 }
 
-header h1{
-    margin-bottom:10px;
+nav{
+    margin-top:15px;
 }
 
 nav a{
@@ -29,46 +28,35 @@ nav a{
     font-weight:bold;
 }
 
-nav a:hover{
-    color:#FFD700;
-}
-
 .hero{
     text-align:center;
-    padding:60px 20px;
-    background:#fff;
+    padding:80px 20px;
+    background:linear-gradient(135deg,#6a11cb,#2575fc);
+    color:white;
 }
 
 .hero h2{
-    font-size:36px;
-    color:#8B0000;
+    font-size:38px;
     margin-bottom:15px;
 }
 
 .hero p{
-    font-size:20px;
-    margin-bottom:25px;
+    font-size:22px;
+    margin-bottom:30px;
 }
 
-.btn{
+.hero a{
     display:inline-block;
-    padding:12px 25px;
+    padding:15px 30px;
     margin:10px;
-    background:#8B0000;
-    color:white;
+    background:white;
+    color:#2575fc;
     text-decoration:none;
-    border-radius:8px;
-    font-size:18px;
+    border-radius:30px;
+    font-weight:bold;
 }
 
-.btn:hover{
-    background:#b22222;
-}
-
-footer{
-    text-align:center;
-    background:#222;
-    color:white;
-    padding:20px;
-    margin-top:50px;
+.hero a:hover{
+    background:#ffd700;
+    color:black;
 }
